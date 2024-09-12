@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-    file, err := os.Open("message.txt")
+    file, err := os.Open("accounts.txt")
     if err != nil {
         log.Fatalf("Dosya bulunamadı %v", err)
     }
